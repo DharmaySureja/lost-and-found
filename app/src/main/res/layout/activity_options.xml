@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/options">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/logo"></ImageView>
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="35dp"
+            android:id="@+id/timeline"
+            android:src="@drawable/timeline"
+            android:background="#ffffff"
+            android:text="Timeline"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/history"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/history"
+            android:background="#ffffff"
+            android:text="History"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:src="@drawable/upload"
+            android:text="Found"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:src="@drawable/profile"
+            android:text="Profile"></ImageButton>
+    </TableLayout>
+
+
+</LinearLayout>

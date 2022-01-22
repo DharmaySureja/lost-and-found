@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LostAndFound</string>
+    <string-array name="department">
+        <item>Select Department</item>
+        <item>CE</item>
+        <item>Civil</item>
+        <item>EC</item>
+        <item>IT</item>
+        <item>Mech</item>
+    </string-array>
+</resources>
